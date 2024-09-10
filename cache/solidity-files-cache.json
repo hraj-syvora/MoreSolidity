@@ -1,0 +1,153 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/harshraj/MoreSolidity/contracts/Add.sol": {
+      "lastModificationDate": 1725950274642,
+      "contentHash": "c287ea3a3ac1a5dd7e213ac97401c2c8",
+      "sourceName": "contracts/Add.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../library/LibAdd.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "Add"
+      ]
+    },
+    "/Users/harshraj/MoreSolidity/library/LibAdd.sol": {
+      "lastModificationDate": 1725949890783,
+      "contentHash": "b08ad42563592f46fe208aedabcb716b",
+      "sourceName": "library/LibAdd.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "LibAdd"
+      ]
+    },
+    "/Users/harshraj/MoreSolidity/contracts/Sub.sol": {
+      "lastModificationDate": 1725950690568,
+      "contentHash": "c0cd4bd5f4174bf4bd146a8a07b57772",
+      "sourceName": "contracts/Sub.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../library/LibSub.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "Sub"
+      ]
+    },
+    "/Users/harshraj/MoreSolidity/library/LibSub.sol": {
+      "lastModificationDate": 1725950310137,
+      "contentHash": "03f1cddb7481d6bb72ae11e3a35f69d0",
+      "sourceName": "library/LibSub.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "LibSub"
+      ]
+    }
+  }
+}
